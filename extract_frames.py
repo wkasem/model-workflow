@@ -1,7 +1,7 @@
 import subprocess
 import os
 import sys
-Video = sys.argv[0]
+Video = sys.argv[1]
 
 
 workspace = os.getenv('workspace_DIR', "")

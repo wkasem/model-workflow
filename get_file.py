@@ -2,8 +2,8 @@ import urllib.request
 from pathlib import Path
 import sys
 import os
-name = sys.argv[0]
-url = sys.argv[1]
+name = sys.argv[1]
+url = sys.argv[2]
 
 url_path = Path(url)
 
