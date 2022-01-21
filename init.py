@@ -11,7 +11,7 @@ os.environ['DEEPFACE_DIR'] = STORAGE_DIR + '/DeepFaceLab/'
 
 
 cmd = "sudo pip install -r " + \
-    os.environ['WORKSPACE_DIR'] + "/requirements-colab.txt"
+    os.environ['DEEPFACE_DIR'] + "/requirements-colab.txt"
 cmd += " && pip install --upgrade scikit-image"
 cmd += " && sudo apt-get install cuda-10-0"
 
